@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:tiled_floor"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "construction"
+			}
+		}
+	}
+}

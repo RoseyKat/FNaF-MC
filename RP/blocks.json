@@ -3,5 +3,45 @@
 		1,
 		1,
 		0
-	]
+	],
+	"fnaf:tiled_floor": {
+		"sound": "stone",
+		"textures": "fnaf_tiled_floor"
+	},
+	"fnaf:vent_block": {
+		"sound": "chain",
+		"textures": "fnaf_vent_block"
+	},
+	"fnaf:stonebrick_pattern": {
+		"sound": "stone",
+		"textures": "fnaf_stonebrick_pattern"
+	},
+	"fnaf:camera_block": {
+		"sound": "stone"
+	},
+	"fnaf:door_control": {
+		"sound": "stone"
+	},
+	"fnaf:light_control": {
+		"sound": "stone"
+	},
+	"fnaf:ceiling_light": {
+		"sound": "stone"
+	},
+	"fnaf:fnaf_door": {
+		"sound": "metal",
+		"textures": "fnaf_fnaf_door"
+	},
+	"fnaf:fnaf_door_bottom": {
+		"sound": "metal",
+		"textures": "fnaf_fnaf_door_bottom"
+	},
+	"fnaf:black_block": {
+		"sound": "stone",
+		"textures": "fnaf_black_block"
+	},
+	"fnaf:6am": {
+		"sound": "stone",
+		"textures": "fnaf_6am"
+	}
 }

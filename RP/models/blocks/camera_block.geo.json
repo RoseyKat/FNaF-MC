@@ -1,0 +1,268 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.camera_block",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-1,
+								11,
+								-1
+							],
+							"size": [
+								2,
+								5,
+								2
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										4,
+										8
+									],
+									"uv_size": [
+										2,
+										5
+									]
+								},
+								"east": {
+									"uv": [
+										6,
+										9
+									],
+									"uv_size": [
+										2,
+										5
+									]
+								},
+								"south": {
+									"uv": [
+										8,
+										9
+									],
+									"uv_size": [
+										2,
+										5
+									]
+								},
+								"west": {
+									"uv": [
+										10,
+										9
+									],
+									"uv_size": [
+										2,
+										5
+									]
+								},
+								"up": {
+									"uv": [
+										0,
+										11
+									],
+									"uv_size": [
+										2,
+										2
+									]
+								},
+								"down": {
+									"uv": [
+										2,
+										13
+									],
+									"uv_size": [
+										2,
+										-2
+									]
+								}
+							}
+						}
+					]
+				},
+				{
+					"name": "lens",
+					"pivot": [
+						0,
+						12,
+						0
+					],
+					"rotation": [
+						15,
+						-40,
+						-23
+					],
+					"cubes": [
+						{
+							"origin": [
+								-5,
+								9,
+								-2
+							],
+							"size": [
+								7,
+								3,
+								4
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										7,
+										0
+									],
+									"uv_size": [
+										7,
+										3
+									]
+								},
+								"east": {
+									"uv": [
+										7,
+										6
+									],
+									"uv_size": [
+										4,
+										3
+									]
+								},
+								"south": {
+									"uv": [
+										7,
+										3
+									],
+									"uv_size": [
+										7,
+										3
+									]
+								},
+								"west": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										4,
+										3
+									]
+								},
+								"up": {
+									"uv": [
+										0,
+										0
+									],
+									"uv_size": [
+										7,
+										4
+									]
+								},
+								"down": {
+									"uv": [
+										0,
+										8
+									],
+									"uv_size": [
+										7,
+										-4
+									]
+								}
+							}
+						},
+						{
+							"origin": [
+								-5.5,
+								9.5,
+								-1
+							],
+							"size": [
+								0.5,
+								2,
+								2
+							],
+							"uv": {
+								"north": {
+									"uv": [
+										12,
+										10
+									],
+									"uv_size": [
+										1,
+										2
+									]
+								},
+								"east": {
+									"uv": [
+										11,
+										6
+									],
+									"uv_size": [
+										2,
+										2
+									]
+								},
+								"south": {
+									"uv": [
+										12,
+										12
+									],
+									"uv_size": [
+										1,
+										2
+									]
+								},
+								"west": {
+									"uv": [
+										12,
+										8
+									],
+									"uv_size": [
+										2,
+										2
+									]
+								},
+								"up": {
+									"uv": [
+										0,
+										13
+									],
+									"uv_size": [
+										1,
+										2
+									]
+								},
+								"down": {
+									"uv": [
+										1,
+										15
+									],
+									"uv_size": [
+										1,
+										-2
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

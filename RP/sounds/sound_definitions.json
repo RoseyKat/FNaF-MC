@@ -1,4 +1,71 @@
 {
 	"format_version": "1.14.0",
-	"sound_definitions": {}
+	"sound_definitions": {
+		"ambience.fnaf1": {
+			"category": "music",
+			"sounds": [
+				"sounds/ambience/fnaf1"
+			]
+		},
+		"fnaf1.win": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/6am"
+			]
+		},
+		"fnaf1.camera": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/camera"
+			]
+		},
+		"fnaf1.door": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/door"
+			]
+		},
+		"fnaf1.foxy": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/foxy-run"
+			]
+		},
+		"fnaf1.freddy-laugh": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/freddy-laugh"
+			]
+		},
+		"fnaf1.jumpscare": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/jumpscare"
+			]
+		},
+		"fnaf1.light": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/light"
+			]
+		},
+		"fnaf1.power-out": {
+			"category": "music",
+			"sounds": [
+				"sounds/fnaf1/power-out"
+			]
+		},
+		"fnaf1.at-door": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/at-door"
+			]
+		},
+		"fnaf1.no-power": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/no-power"
+			]
+		}
+	}
 }

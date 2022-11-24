@@ -3,5 +3,39 @@
 	"padding": 8,
 	"resource_pack_name": "FNaF",
 	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"fnaf_tiled_floor": {
+			"textures": "textures/blocks/general/tiled_floor"
+		},
+		"fnaf_vent_block": {
+			"textures": "textures/blocks/general/vent_block"
+		},
+		"fnaf_stonebrick_pattern": {
+			"textures": "textures/blocks/general/stonebrick_pattern"
+		},
+		"fnaf_camera_block": {
+			"textures": "textures/blocks/general/camera_block"
+		},
+		"fnaf_door_control": {
+			"textures": "textures/blocks/fnaf1/door_control"
+		},
+		"fnaf_light_control": {
+			"textures": "textures/blocks/fnaf1/light_control"
+		},
+		"fnaf_ceiling_light": {
+			"textures": "textures/blocks/general/ceiling_light"
+		},
+		"fnaf_fnaf_door": {
+			"textures": "textures/blocks/general/fnaf_door"
+		},
+		"fnaf_fnaf_door_bottom": {
+			"textures": "textures/blocks/general/fnaf_door_bottom"
+		},
+		"fnaf_black_block": {
+			"textures": "textures/blocks/general/black"
+		},
+		"fnaf_6am": {
+			"textures": "textures/blocks/general/6am"
+		}
+	}
 }

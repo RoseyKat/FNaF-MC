@@ -1,0 +1,36 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf1_camera_next"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Camera\n§7next"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf1_camera_next"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:next_camera"
+				}
+			},
+			"minecraft:cooldown": {
+				"category": "camera",
+				"duration": 1
+			}
+		},
+		"events": {
+			"fnaf:next_camera": {
+				"swing": {},
+				"run_command": {
+					"command": "/function fnaf1/camera/next"
+				}
+			}
+		}
+	}
+}

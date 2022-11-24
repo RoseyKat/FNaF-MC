@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:door_control_fake",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:block_light_emission": 0.1,
+			"minecraft:geometry": "geometry.door_control",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fnaf_door_control",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-5,
+					3,
+					-8
+				],
+				"size": [
+					10,
+					10,
+					1
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-5,
+					3,
+					-8
+				],
+				"size": [
+					10,
+					10,
+					1
+				]
+			},
+			"minecraft:rotation": [
+				0,
+				0,
+				0
+			],
+			"bridge:rotate_y_on_place": {
+				"flip": false
+			},
+			"minecraft:creative_category": {
+				"category": "commands",
+				"group": "commands"
+			}
+		}
+	}
+}

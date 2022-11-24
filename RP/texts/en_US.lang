@@ -1,0 +1,14 @@
+tile.fnaf:tiled_floor.name=Tiled Floor
+tile.fnaf:vent_block.name=Vent Block
+tile.fnaf:stonebrick_pattern.name=Stonebricks (w/tiled pattern)
+tile.fnaf:camera_block.name=Camera (block only)
+tile.fnaf:door_control_left.name=Door Control (left)
+tile.fnaf:door_control_right.name=Door Control (right)
+tile.fnaf:light_control.name=Light Control
+tile.fnaf:ceiling_light.name=Ceiling Light
+tile.fnaf:ceiling_light_flickering.name=Flickering Ceiling Light (no rot)
+tile.fnaf:ceiling_light_flickering_off.name=Flickering Ceiling Light Off (no rot)
+tile.fnaf:fnaf_door.name=Door Block
+tile.fnaf:fnaf_door_bottom.name=Door Block (w/warning tape)
+tile.fnaf:black_block.name=Black Block
+tile.fnaf:6am.name=6AM

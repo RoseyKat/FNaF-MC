@@ -1,5 +1,21 @@
 {
 	"resource_pack_name": "FNaF",
 	"texture_name": "atlas.items",
-	"texture_data": {}
+	"texture_data": {
+		"fnaf_fnaf1_camera": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera"
+		},
+		"fnaf_fnaf1_camera_disable": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera_disable"
+		},
+		"fnaf_fnaf1_camera_next": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera_next"
+		},
+		"fnaf_fnaf1_camera_prev": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera_prev"
+		},
+		"fnaf_fnaf1_attack": {
+			"textures": "textures/items/fnaf1/fnaf1_attack"
+		}
+	}
 }

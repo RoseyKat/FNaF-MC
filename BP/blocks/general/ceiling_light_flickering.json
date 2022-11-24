@@ -1,0 +1,55 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:ceiling_light_flickering",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:block_light_emission": 0.4,
+			"minecraft:geometry": "geometry.ceiling_light",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fnaf_ceiling_light",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					14,
+					-3
+				],
+				"size": [
+					14,
+					2,
+					6
+				]
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "items"
+			},
+			"minecraft:ticking": {
+				"on_tick": {
+					"event": "fnaf:light_flicker"
+				},
+				"looping": true,
+				"range": [
+					1,
+					10
+				]
+			}
+		},
+		"events": {
+			"fnaf:light_flicker": {
+				"set_block": {
+					"block_type": "fnaf:ceiling_light_flickering_off"
+				}
+			}
+		}
+	}
+}

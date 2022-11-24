@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf1_camera"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Camera"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf1_camera"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:enable_camera"
+				}
+			}
+		},
+		"events": {
+			"fnaf:enable_camera": {
+				"swing": {},
+				"run_command": {
+					"command": "/function fnaf1/camera/enable"
+				}
+			}
+		}
+	}
+}

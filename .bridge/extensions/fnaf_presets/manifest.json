@@ -1,0 +1,14 @@
+{
+	"author": "LeahYes",
+	"version": "1.0.0",
+	"name": "FNaF Presets",
+	"description": "FNaF Presets",
+	"id": "e53315f7-2031-4a39-a3d1-9964a4fb07b3",
+	"target": "v2",
+	"api_version": 2,
+	"tags": [
+		"Presets"
+	],
+	"releaseTimestamp": 1669308596
+}
+
