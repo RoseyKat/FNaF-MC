@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"LeahYes"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.4.1"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "FNaF",
+		"description": "FNaF Package",
+		"min_engine_version": [
+			1,
+			19,
+			40
+		],
+		"uuid": "fbdb6797-b587-44fd-b024-e7bb0f52e53d",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2aed5b3c-a15c-44b1-a34f-f9413e025cfd",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "7a007259-0594-41a7-90d7-bb157ace4001",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
