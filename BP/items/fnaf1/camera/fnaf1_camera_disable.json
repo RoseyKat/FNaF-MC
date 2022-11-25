@@ -22,7 +22,6 @@
 		},
 		"events": {
 			"fnaf:disable_camera": {
-				"swing": {},
 				"run_command": {
 					"command": "/function fnaf1/camera/disable"
 				}

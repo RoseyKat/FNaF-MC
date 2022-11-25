@@ -10,6 +10,9 @@ replaceitem entity @s slot.hotbar 0 fnaf:fnaf1_camera 1 0 {"item_lock": {"mode":
 clear @s carved_pumpkin
 clear @s fnaf:fnaf1_camera_next
 clear @s fnaf:fnaf1_camera_prev
+clear @s fnaf:fnaf1_camera_foxy
+clear @s fnaf:fnaf1_camera_east
+clear @s fnaf:fnaf1_camera_west
 
 tp @s 21 -60 50 facing 23 -60 50
 

@@ -10,3 +10,5 @@ setblock 37 -61 30 redstone_block
 effect @a invisibility 9999 0 true
 
 tp @a 39 -60 30
+
+clear @a

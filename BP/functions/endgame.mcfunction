@@ -14,8 +14,10 @@ tag @a remove foxy
 fog @a pop guard_fog
 tag @a remove attacking
 effect @a clear
+tag @a remove anim
 clear @a
 camerashake stop @a
+scoreboard players set sfx_played fnaf1 0
 
 kill @e
 

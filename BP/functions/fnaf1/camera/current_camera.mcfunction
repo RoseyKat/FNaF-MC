@@ -8,7 +8,7 @@ execute as @a[tag=camera] if score @s camera matches 4 run titleraw @s actionbar
 
 execute as @a[tag=camera] if score @s camera matches 5 run titleraw @s actionbar {"rawtext":[{"text":"Parts & Service\n§7Camera:"},{"score":{"objective":"camera","name":"@s"}}]}
 
-execute as @a[tag=camera] if score @s camera matches 6 run titleraw @s actionbar {"rawtext":[{"text":"Foxy's Cove\n§7Camera:"},{"score":{"objective":"camera","name":"@s"}}]}
+execute as @a[tag=camera] if score @s camera matches 6 run titleraw @s actionbar {"rawtext":[{"text":"Pirates's Cove\n§7Camera:"},{"score":{"objective":"camera","name":"@s"}}]}
 
 execute as @a[tag=camera] if score @s camera matches 7 run titleraw @s actionbar {"rawtext":[{"text":"West Hallway\n§7Camera:"},{"score":{"objective":"camera","name":"@s"}}]}
 

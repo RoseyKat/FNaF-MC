@@ -2,28 +2,31 @@
 	"format_version": "1.19.40",
 	"minecraft:item": {
 		"description": {
-			"identifier": "fnaf:fnaf1_camera_prev"
+			"identifier": "fnaf:fnaf1_camera_foxy"
 		},
 		"components": {
 			"minecraft:display_name": {
-				"value": "Camera\n§7previous"
+				"value": "Pirates Cove"
 			},
 			"minecraft:creative_category": {
 				"category": "commands"
 			},
 			"minecraft:icon": {
-				"texture": "fnaf_fnaf1_camera_prev"
+				"texture": "fnaf_fnaf1_camera_foxy"
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "fnaf:prev_camera"
+					"event": "fnaf:foxy_camera"
 				}
 			}
 		},
 		"events": {
-			"fnaf:prev_camera": {
+			"fnaf:foxy_camera": {
 				"run_command": {
-					"command": "/function fnaf1/camera/prev"
+					"command": [
+						"/scoreboard players set @s camera 6",
+						"/playsound fnaf1.camera @s"
+					]
 				}
 			}
 		}

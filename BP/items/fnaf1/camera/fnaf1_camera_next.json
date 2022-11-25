@@ -18,15 +18,10 @@
 				"on_use": {
 					"event": "fnaf:next_camera"
 				}
-			},
-			"minecraft:cooldown": {
-				"category": "camera",
-				"duration": 1
 			}
 		},
 		"events": {
 			"fnaf:next_camera": {
-				"swing": {},
 				"run_command": {
 					"command": "/function fnaf1/camera/next"
 				}

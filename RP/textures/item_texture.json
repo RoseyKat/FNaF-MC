@@ -16,6 +16,15 @@
 		},
 		"fnaf_fnaf1_attack": {
 			"textures": "textures/items/fnaf1/fnaf1_attack"
+		},
+		"fnaf_fnaf1_camera_foxy": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera_foxy"
+		},
+		"fnaf_fnaf1_camera_east": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera_east"
+		},
+		"fnaf_fnaf1_camera_west": {
+			"textures": "textures/items/fnaf1/camera/fnaf1_camera_west"
 		}
 	}
 }
