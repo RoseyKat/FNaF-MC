@@ -25,6 +25,7 @@ tag @a remove w_freddy
 tag @a remove w_chica
 tag @a remove w_bonnie
 tag @a remove w_foxy
+tag @a remove bb
 effect @a clear
 tag @a remove anim
 clear @a

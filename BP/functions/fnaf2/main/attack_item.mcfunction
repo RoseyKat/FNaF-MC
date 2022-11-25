@@ -14,3 +14,8 @@ execute as @a[tag=t_freddy] if entity @s[x=27,y=-64,z=55,dx=1,dy=10,dz=-4] run r
 execute as @a[tag=t_freddy] unless entity @s[x=27,y=-64,z=55,dx=1,dy=10,dz=-4] run clear @s fnaf:fnaf2_attack
 
 execute as @a[tag=w_foxy] if score bottom_light doors matches 1 run tp @s 47 -60 44 facing 47 -60 50
+
+
+execute as @a[tag=guard] if entity @s[hasitem={item=fnaf:mask_helmet}] run scoreboard players set left_light doors 0
+execute as @a[tag=guard] if entity @s[hasitem={item=fnaf:mask_helmet}] run scoreboard players set right_light doors 0
+execute as @a[tag=guard] if entity @s[hasitem={item=fnaf:mask_helmet}] run scoreboard players set bottom_light doors 0

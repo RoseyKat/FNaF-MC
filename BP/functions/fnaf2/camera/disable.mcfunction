@@ -7,6 +7,7 @@ effect @s clear
 playsound fnaf1.camera @s
 
 replaceitem entity @s slot.hotbar 1 fnaf:fnaf2_camera 1 0 {"item_lock": {"mode": "lock_in_slot"}}
+replaceitem entity @s slot.hotbar 0 fnaf:fnaf2_mask 1 0 {"item_lock": {"mode": "lock_in_slot"}}
 clear @s fnaf:fnaf2_camera_disable
 clear @s fnaf:fnaf2_camera_next
 clear @s fnaf:fnaf2_camera_prev
