@@ -1,0 +1,31 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf2_camera_prev"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Camera\n§7previous"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf2_camera_prev"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:prev_cam"
+				}
+			}
+		},
+		"events": {
+			"fnaf:prev_cam": {
+				"run_command": {
+					"command": "/function fnaf2/camera/prev"
+				}
+			}
+		}
+	}
+}

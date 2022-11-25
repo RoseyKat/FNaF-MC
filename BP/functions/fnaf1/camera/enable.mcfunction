@@ -1,5 +1,7 @@
 tag @s add camera
 
+scoreboard players add usage fnaf1 1
+
 scoreboard players set @s camera 1
 
 effect @s invisibility 99999 0 true

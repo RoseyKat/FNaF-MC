@@ -1,1 +1,0 @@
-structure load fnaf1 20 -64 20

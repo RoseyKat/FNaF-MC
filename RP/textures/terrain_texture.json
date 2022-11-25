@@ -36,6 +36,12 @@
 		},
 		"fnaf_6am": {
 			"textures": "textures/blocks/general/6am"
+		},
+		"fnaf_tv": {
+			"textures": "textures/blocks/general/tv"
+		},
+		"fnaf_cupcake": {
+			"textures": "textures/blocks/general/cupcake"
 		}
 	}
 }

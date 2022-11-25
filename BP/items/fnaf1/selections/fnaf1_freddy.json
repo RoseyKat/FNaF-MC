@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf1_freddy"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§6Freddy"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf1_freddy"
+			}
+		}
+	}
+}

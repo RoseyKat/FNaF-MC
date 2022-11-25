@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf2_mask"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Freddy Mask"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf2_mask"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:mask"
+				}
+			}
+		},
+		"events": {
+			"fnaf:mask": {
+				"swing": {},
+				"run_command": {
+					"command": "/function fnaf2/main/mask"
+				}
+			}
+		}
+	}
+}

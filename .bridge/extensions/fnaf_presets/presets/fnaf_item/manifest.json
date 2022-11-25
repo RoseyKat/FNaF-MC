@@ -2,7 +2,7 @@
 	"name": "FNaF 1 item",
 	"icon": "mdi-microphone-variant",
 	"description": "Creates a new item for FNaF 1",
-	"category": "FNaF 1",
+	"category": "FNaF",
 	"requires": {
 		"targetVersion": [">=", "1.16.100"],
 		"packTypes": ["behaviorPack", "resourcePack"],

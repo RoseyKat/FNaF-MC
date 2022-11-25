@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf2_guard"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§9Guard"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf2_guard"
+			}
+		}
+	}
+}

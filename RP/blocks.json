@@ -43,5 +43,12 @@
 	"fnaf:6am": {
 		"sound": "stone",
 		"textures": "fnaf_6am"
+	},
+	"fnaf:tv": {
+		"sound": "stone",
+		"textures": "fnaf_tv"
+	},
+	"fnaf:cupcake": {
+		"sound": "stone"
 	}
 }

@@ -1,0 +1,1 @@
+execute if score time fnaf2 matches 6 run function fnaf2/win/guard

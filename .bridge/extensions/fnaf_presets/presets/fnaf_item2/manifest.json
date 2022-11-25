@@ -1,0 +1,36 @@
+{
+	"name": "FNaF 2 item",
+	"icon": "mdi-microphone-variant",
+	"description": "Creates a new item for FNaF 2",
+	"category": "FNaF",
+	"requires": {
+		"targetVersion": [">=", "1.16.100"],
+		"packTypes": ["behaviorPack", "resourcePack"],
+		"experimentalGameplay": ["holidayCreatorFeatures"]
+	},
+	"additionalModels": {
+		"PRESET_PATH": "fnaf2/"
+	},
+	"fields": [
+		[
+			"Image",
+			"TEXTURE",
+			{ "type": "fileInput", "accept": "image/png", "optional": false }
+		],
+		[
+			"Identifier",
+			"IDENTIFIER",
+			{ "validate": ["required", "alphanumeric", "lowercase"] }
+		],
+		["Display Name (set in the item.json)", "IDENTIFIER_NAME", { "validate": ["required"] }]
+	],
+
+	"createFiles": [
+		"presetScript/itemImages.js",
+		[
+			"item.json",
+			"items/{{PRESET_PATH}}{{IDENTIFIER}}.json",
+			{ "inject": ["IDENTIFIER", "IDENTIFIER_NAME", "PROJECT_PREFIX", "PRESET_PATH"], "openFile": true, "packPath": "behaviorPack" }
+		]
+	]
+}

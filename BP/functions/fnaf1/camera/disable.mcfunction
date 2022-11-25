@@ -1,5 +1,7 @@
 scoreboard players set @s camera -1
 
+scoreboard players remove usage fnaf1 1
+
 tag @s remove camera
 
 effect @s clear

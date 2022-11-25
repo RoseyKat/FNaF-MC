@@ -25,6 +25,69 @@
 		},
 		"fnaf_fnaf1_camera_west": {
 			"textures": "textures/items/fnaf1/camera/fnaf1_camera_west"
+		},
+		"fnaf_game_fnaf1": {
+			"textures": "textures/items/fnaf1/game_fnaf1"
+		},
+		"fnaf_fnaf1_guard": {
+			"textures": "textures/items/fnaf1/selections/fnaf1_guard"
+		},
+		"fnaf_fnaf1_bonnie": {
+			"textures": "textures/items/fnaf1/selections/fnaf1_bonnie"
+		},
+		"fnaf_fnaf1_chica": {
+			"textures": "textures/items/fnaf1/selections/fnaf1_chica"
+		},
+		"fnaf_fnaf1_freddy": {
+			"textures": "textures/items/fnaf1/selections/fnaf1_freddy"
+		},
+		"fnaf_fnaf2_wind": {
+			"textures": "textures/items/fnaf2/fnaf2_wind"
+		},
+		"fnaf_fnaf2_camera": {
+			"textures": "textures/items/fnaf2/camera/fnaf2_camera"
+		},
+		"fnaf_fnaf2_camera_disable": {
+			"textures": "textures/items/fnaf2/camera/fnaf2_camera_disable"
+		},
+		"fnaf_fnaf2_camera_next": {
+			"textures": "textures/items/fnaf2/camera/fnaf2_camera_next"
+		},
+		"fnaf_fnaf2_camera_prev": {
+			"textures": "textures/items/fnaf2/camera/fnaf2_camera_prev"
+		},
+		"fnaf_fnaf2_camera_puppet": {
+			"textures": "textures/items/fnaf2/camera/fnaf2_camera_puppet"
+		},
+		"fnaf_fnaf2_attack": {
+			"textures": "textures/items/fnaf2/fnaf2_attack"
+		},
+		"fnaf_fnaf2_mask": {
+			"textures": "textures/items/fnaf2/fnaf2_mask"
+		},
+		"fnaf_mask_helmet": {
+			"textures": "textures/items/fnaf2/mask_helmet"
+		},
+		"fnaf_game_fnaf2": {
+			"textures": "textures/items/fnaf2/game_fnaf2"
+		},
+		"fnaf_fnaf2_guard": {
+			"textures": "textures/items/fnaf2/selection/fnaf2_guard"
+		},
+		"fnaf_fnaf2_t_freddy": {
+			"textures": "textures/items/fnaf2/selection/fnaf2_t_freddy"
+		},
+		"fnaf_fnaf2_t_bonnie": {
+			"textures": "textures/items/fnaf2/selection/fnaf2_t_bonnie"
+		},
+		"fnaf_fnaf2_t_chica": {
+			"textures": "textures/items/fnaf2/selection/fnaf2_t_chica"
+		},
+		"fnaf_fnaf2_w_foxy": {
+			"textures": "textures/items/fnaf2/selection/fnaf2_w_foxy"
+		},
+		"fnaf_fnaf2_bb": {
+			"textures": "textures/items/fnaf2/selection/fnaf2_bb"
 		}
 	}
 }

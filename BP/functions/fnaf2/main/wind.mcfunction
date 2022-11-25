@@ -1,0 +1,1 @@
+scoreboard players add music_box fnaf2 1

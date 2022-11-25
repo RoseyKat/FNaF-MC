@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf2_wind"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Wind Up Music Box"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf2_wind"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:wind"
+				}
+			}
+		},
+		"events": {
+			"fnaf:wind": {
+				"swing": {},
+				"run_command": {
+					"command": "/function fnaf2/main/wind"
+				}
+			}
+		}
+	}
+}

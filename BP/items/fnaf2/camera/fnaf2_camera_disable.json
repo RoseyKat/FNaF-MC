@@ -1,0 +1,31 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf2_camera_disable"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Camera\n§7disable"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf2_camera_disable"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:disable_cam"
+				}
+			}
+		},
+		"events": {
+			"fnaf:disable_cam": {
+				"run_command": {
+					"command": "/function fnaf2/camera/disable"
+				}
+			}
+		}
+	}
+}
