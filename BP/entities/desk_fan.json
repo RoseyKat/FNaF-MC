@@ -1,0 +1,74 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fnaf:desk_fan",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"fnaf:die": {
+				"minecraft:health": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:health": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 999
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 0.6
+			},
+			"minecraft:type_family": {
+				"family": [
+					"fan",
+					"desk_fan",
+					"fnaf"
+				]
+			},
+			"minecraft:interact": {
+				"interactions": {
+					"on_interact": {
+						"event": "fnaf:kill",
+						"filters": {
+							"test": "has_tag",
+							"subject": "player",
+							"operator": "==",
+							"value": "admin"
+						}
+					},
+					"swing": true
+				}
+			}
+		},
+		"events": {
+			"fnaf:kill": {
+				"add": {
+					"component_groups": [
+						"fnaf:die"
+					]
+				}
+			}
+		}
+	}
+}

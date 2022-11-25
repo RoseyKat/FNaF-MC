@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "fnaf:desk_fan",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/desk_fan"
+			},
+			"geometry": {
+				"default": "geometry.desk_fan"
+			},
+			"render_controllers": [
+				"controller.render.desk_fan"
+			],
+			"spawn_egg": {
+				"base_color": "#171717",
+				"overlay_color": "#454545"
+			},
+			"animations": {
+				"spin": "animation.desk_fan.spin"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

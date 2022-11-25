@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.desk_fan.spin": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"fan": {
+					"rotation": {
+						"0.0": [
+							0,
+							0,
+							0
+						],
+						"1.0": [
+							0,
+							0,
+							-720
+						]
+					}
+				}
+			}
+		}
+	}
+}
