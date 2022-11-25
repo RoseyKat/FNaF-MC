@@ -9,6 +9,7 @@ scoreboard players set @a camera -1
 scoreboard players set time fnaf2 0
 scoreboard players set power fnaf2 100
 scoreboard players set music_box fnaf2 10
+scoreboard players set @a mask 0
 tag @a remove camera
 tag @a remove guard
 tag @a remove bonnie
