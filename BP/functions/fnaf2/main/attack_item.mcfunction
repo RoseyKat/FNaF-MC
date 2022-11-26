@@ -13,7 +13,7 @@ execute as @a[tag=w_foxy] unless entity @s[x=27,y=-64,z=55,dx=1,dy=10,dz=-4] run
 execute as @a[tag=t_freddy] if entity @s[x=27,y=-64,z=55,dx=1,dy=10,dz=-4] run replaceitem entity @s slot.hotbar 0 fnaf:fnaf2_attack 1 0 {"item_lock": {"mode": "lock_in_slot"}}
 execute as @a[tag=t_freddy] unless entity @s[x=27,y=-64,z=55,dx=1,dy=10,dz=-4] run clear @s fnaf:fnaf2_attack
 
-execute as @a[tag=w_foxy] if score bottom_light doors matches 1 run tp @s 47 -60 44 facing 47 -60 50
+execute as @a[tag=w_foxy] if score bottom_light doors matches 1 run tp @s 45 -60 44 facing 45 -61 49
 
 
 execute as @a[tag=guard] if entity @s[hasitem={item=fnaf:mask_helmet}] run scoreboard players set left_light doors 0

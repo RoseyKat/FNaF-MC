@@ -1,1 +1,3 @@
 execute as @a[tag=guard] unless entity @s[tag=camera] run titleraw @s actionbar {"rawtext":[{"text":"§eTime§f: "},{"score":{"objective":"fnaf2","name":"time"}},{"text":" AM\n§aBattery§f: "},{"score":{"objective":"fnaf2","name":"power"}},{"text":"%\nMusic Box: "},{"score":{"objective":"fnaf2","name":"music_box"}}]}
+
+execute as @a[tag=anim] run titleraw @s actionbar {"rawtext":[{"text":"§eTime§f: "},{"score":{"objective":"fnaf2","name":"time"}},{"text":" AM"}]}

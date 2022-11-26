@@ -1,6 +1,6 @@
 tag @s add camera
 
-scoreboard players set @s camera 1
+scoreboard players operation @s camera = @s camera_cache
 
 effect @s invisibility 99999 0 true
 

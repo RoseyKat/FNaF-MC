@@ -22,7 +22,9 @@ execute as @a[tag=camera] if score @s camera matches 10 run tp @s 25.69 -57.80 5
 execute as @a[tag=camera] if score @s camera matches 11 run tp @s 21.94 -57.80 54.04 facing 20 -60 53
 
 execute as @a[tag=camera] if score @s camera matches 12.. run scoreboard players set @s camera 1
+execute as @a[tag=camera] if score @s camera_cache matches 12.. run scoreboard players set @s camera_cache 1
 
 execute as @a[tag=camera] if score @s camera matches 0 run scoreboard players set @s camera 11
+execute as @a[tag=camera] if score @s camera_cache matches 0 run scoreboard players set @s camera_cache 11
 
 function fnaf1/camera/current_camera

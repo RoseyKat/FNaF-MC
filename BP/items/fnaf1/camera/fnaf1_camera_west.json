@@ -25,6 +25,8 @@
 				"run_command": {
 					"command": [
 						"/scoreboard players set @s camera 7",
+						"/scoreboard players set @s camera_cache 7",
+						"/clear @s carved_pumpkin",
 						"/playsound fnaf1.camera @s"
 					]
 				}

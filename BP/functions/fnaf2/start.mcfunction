@@ -1,10 +1,8 @@
-setblock 26 -60 30 redstone_block
+fill 26 -60 30 28 -60 30 redstone_block
 
 setblock 20 -60 20 air
 
-setblock 23 -60 30 redstone_block
-
-setblock 28 -60 30 redstone_block
+scoreboard players set @a camera_cache 1
 
 scoreboard players set time fnaf2 0
 scoreboard players set power fnaf2 100
@@ -12,15 +10,15 @@ scoreboard players set music_box fnaf2 10
 
 tp @a[tag=guard] 21 -60 53 facing 25 -60 53
 
-tp @a[tag=t_bonnie] 47 -59 69 facing 45 -60 69
+tp @a[tag=t_bonnie] 45 -59 70 facing 43 -60 70
 
-tp @a[tag=t_chica] 47 -59 73 facing 45 -60 73
+tp @a[tag=t_chica] 45 -59 74 facing 43 -60 74
 
-tp @a[tag=t_freddy] 47 -59 71 facing 45 -60 71
+tp @a[tag=t_freddy] 45 -59 72 facing 43 -60 72
 
-tp @a[tag=w_foxy] 47 -60 44 facing 47 -60 50
+tp @a[tag=w_foxy] 45 -60 44 facing 45 -61 49
 
-tp @a[tag=bb] 41 -60 71 facing 41 -60 69
+tp @a[tag=bb] 38 -60 71
 
 tag @a[tag=t_bonnie] add anim
 tag @a[tag=t_chica] add anim
