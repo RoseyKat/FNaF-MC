@@ -8,7 +8,8 @@
 				"enchanted": "armor_enchanted"
 			},
 			"textures": {
-				"default": "textures/models/armor/fnaf2/mask_1"
+				"default": "textures/models/armor/fnaf2/mask_1",
+				"enchanted": "textures/misc/enchanted_item_glint"
 			},
 			"geometry": {
 				"default": "geometry.humanoid.armor.helmet"
