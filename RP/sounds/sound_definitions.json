@@ -13,6 +13,12 @@
 				"sounds/ambience/fnaf2"
 			]
 		},
+		"ambience.fnaf6": {
+			"category": "music",
+			"sounds": [
+				"sounds/ambience/fnaf6"
+			]
+		},
 		"fnaf1.win": {
 			"category": "ui",
 			"sounds": [
@@ -107,6 +113,68 @@
 			"category": "hostile",
 			"sounds": [
 				"sounds/fnaf2/pop-goes-the-weasel"
+			]
+		},
+		"fnaf6.win": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf6/win"
+			]
+		},
+		"fnaf6.jumpscare": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf6/jumpscare"
+			]
+		},
+		"fnaf6.pc": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf6/pc"
+			]
+		},
+		"fnaf6.cooler": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf6/cooler"
+			]
+		},
+		"fnaf6.vent": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/fnaf6/vent/vent1",
+				"sounds/fnaf6/vent/vent2",
+				"sounds/fnaf6/vent/vent3",
+				"sounds/fnaf6/vent/vent4",
+				"sounds/fnaf6/vent/vent5",
+				"sounds/fnaf6/vent/vent6",
+				"sounds/fnaf6/vent/vent7",
+				"sounds/fnaf6/vent/vent8",
+				"sounds/fnaf6/vent/vent9",
+				"sounds/fnaf6/vent/vent10",
+				"sounds/fnaf6/vent/vent11",
+				"sounds/fnaf6/vent/vent12"
+			]
+		},
+		"fnaf6.scrap": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/fnaf6/scrap/heardyourcall",
+				"sounds/fnaf6/scrap/notexpected",
+				"sounds/fnaf6/scrap/whereareyou2"
+			]
+		},
+		"fnaf6.afton": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/fnaf6/afton/Fascinating",
+				"sounds/fnaf6/afton/Itsstillme"
+			]
+		},
+		"fnaf6.m_freddy": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/fnaf6/m_freddy/surprise2"
 			]
 		}
 	}

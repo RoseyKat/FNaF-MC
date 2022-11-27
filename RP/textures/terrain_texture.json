@@ -42,6 +42,57 @@
 		},
 		"fnaf_cupcake": {
 			"textures": "textures/blocks/general/cupcake"
+		},
+		"fnaf_fnaf6_vent_block": {
+			"textures": "textures/blocks/fnaf6/fnaf6_vent_block"
+		},
+		"fnaf_fnaf6_motion_0": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_0"
+		},
+		"fnaf_fnaf6_motion_1": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_1"
+		},
+		"fnaf_fnaf6_motion_2": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_2"
+		},
+		"fnaf_fnaf6_motion_3": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_3"
+		},
+		"fnaf_fnaf6_motion_4": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_4"
+		},
+		"fnaf_fnaf6_motion_5": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_5"
+		},
+		"fnaf_fnaf6_motion_6": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_6"
+		},
+		"fnaf_fnaf6_motion_7": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_7"
+		},
+		"fnaf_fnaf6_motion_8": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_8"
+		},
+		"fnaf_fnaf6_motion_9": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_9"
+		},
+		"fnaf_fnaf6_motion_10": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_10"
+		},
+		"fnaf_fnaf6_motion_11": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_11"
+		},
+		"fnaf_fnaf6_motion_12": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_12"
+		},
+		"fnaf_fnaf6_motion_13": {
+			"textures": "textures/blocks/fnaf6/motion/fnaf6_motion_13"
+		},
+		"fnaf_fnaf6_pc": {
+			"textures": "textures/blocks/fnaf6/pc"
+		},
+		"fnaf_fnaf6_cooling": {
+			"textures": "textures/blocks/fnaf6/cooling"
 		}
 	}
 }

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:fnaf6_motion_1"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "commands",
+				"group": "commands"
+			}
+		}
+	}
+}

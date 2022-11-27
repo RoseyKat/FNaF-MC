@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "fnaf:fnaf6_fog"
+		},
+		"distance": {
+			"air": {
+				"fog_color": "#000001",
+				"fog_start": 1,
+				"fog_end": 4,
+				"render_distance_type": "fixed"
+			}
+		}
+	}
+}

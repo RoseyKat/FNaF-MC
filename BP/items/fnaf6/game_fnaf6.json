@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:game_fnaf6"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "FNaF 6 (Pizzeria Simulator)"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_game_fnaf6"
+			}
+		}
+	}
+}

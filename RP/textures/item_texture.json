@@ -88,6 +88,27 @@
 		},
 		"fnaf_fnaf2_bb": {
 			"textures": "textures/items/fnaf2/selection/fnaf2_bb"
+		},
+		"fnaf_fnaf6_attack": {
+			"textures": "textures/items/fnaf6/fnaf6_attack"
+		},
+		"fnaf_game_fnaf6": {
+			"textures": "textures/items/fnaf6/game_fnaf6"
+		},
+		"fnaf_fnaf6_guard": {
+			"textures": "textures/items/fnaf6/selection/fnaf6_guard"
+		},
+		"fnaf_fnaf6_m_freddy": {
+			"textures": "textures/items/fnaf6/selection/fnaf6_m_freddy"
+		},
+		"fnaf_fnaf6_lefty": {
+			"textures": "textures/items/fnaf6/selection/fnaf6_lefty"
+		},
+		"fnaf_fnaf6_scrap": {
+			"textures": "textures/items/fnaf6/selection/fnaf6_scrap"
+		},
+		"fnaf_fnaf6_afton": {
+			"textures": "textures/items/fnaf6/selection/fnaf6_afton"
 		}
 	}
 }

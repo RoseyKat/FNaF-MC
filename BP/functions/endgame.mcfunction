@@ -10,11 +10,20 @@ scoreboard players set time fnaf2 0
 scoreboard players set power fnaf2 100
 scoreboard players set music_box fnaf2 10
 scoreboard players set @a mask 0
+scoreboard players set pc fnaf6 0
+scoreboard players set cooling fnaf6 1
+scoreboard players set tasks fnaf6 180
+scoreboard players set sound fnaf6 1
+scoreboard players set temp fnaf6 60
 tag @a remove camera
 tag @a remove guard
 tag @a remove bonnie
 tag @a remove chica
 tag @a remove freddy
+tag @a remove m_freddy
+tag @a remove scrap
+tag @a remove afton
+tag @a remove lefty
 tag @a remove foxy
 fog @a pop guard_fog
 tag @a remove attacking

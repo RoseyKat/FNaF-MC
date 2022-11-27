@@ -50,5 +50,77 @@
 	},
 	"fnaf:cupcake": {
 		"sound": "stone"
+	},
+	"fnaf:fnaf6_vent_block": {
+		"sound": "metal",
+		"textures": "fnaf_fnaf6_vent_block"
+	},
+	"fnaf:fnaf6_vent_block_bottom": {
+		"sound": "metal",
+		"textures": "fnaf_fnaf6_vent_block"
+	},
+	"fnaf:fnaf6_motion_0": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_0"
+	},
+	"fnaf:fnaf6_motion_1": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_1"
+	},
+	"fnaf:fnaf6_motion_2": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_2"
+	},
+	"fnaf:fnaf6_motion_3": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_3"
+	},
+	"fnaf:fnaf6_motion_4": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_4"
+	},
+	"fnaf:fnaf6_motion_5": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_5"
+	},
+	"fnaf:fnaf6_motion_6": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_6"
+	},
+	"fnaf:fnaf6_motion_7": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_7"
+	},
+	"fnaf:fnaf6_motion_8": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_8"
+	},
+	"fnaf:fnaf6_motion_9": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_9"
+	},
+	"fnaf:fnaf6_motion_10": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_10"
+	},
+	"fnaf:fnaf6_motion_11": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_11"
+	},
+	"fnaf:fnaf6_motion_12": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_12"
+	},
+	"fnaf:fnaf6_motion_13": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_motion_13"
+	},
+	"fnaf:fnaf6_pc": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_pc"
+	},
+	"fnaf:fnaf6_cooling": {
+		"sound": "stone",
+		"textures": "fnaf_fnaf6_cooling"
 	}
 }

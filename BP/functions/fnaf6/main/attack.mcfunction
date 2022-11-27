@@ -1,0 +1,1 @@
+function fnaf6/win/anim

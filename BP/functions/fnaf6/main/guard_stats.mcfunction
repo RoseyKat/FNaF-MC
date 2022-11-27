@@ -1,0 +1,1 @@
+titleraw @a[tag=guard] actionbar {"rawtext":[{"text":"Tasks: "},{"score":{"objective":"fnaf6","name":"tasks"}},{"text":"s\n§bTemperature§f: "},{"score":{"objective":"fnaf6","name":"temp"}},{"text":"°C\nCooling: "},{"score":{"objective":"fnaf6","name":"cooling"}},{"text":"\nPC: "},{"score":{"objective":"fnaf6","name":"pc"}},{"text":"\n\n0 = off\n1 = on"}]}

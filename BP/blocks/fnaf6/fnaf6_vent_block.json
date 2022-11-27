@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:fnaf6_vent_block"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "commands",
+				"group": "commands"
+			}
+		}
+	}
+}

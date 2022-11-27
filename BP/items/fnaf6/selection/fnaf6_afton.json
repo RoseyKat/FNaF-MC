@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf6_afton"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§gAfton"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf6_afton"
+			}
+		}
+	}
+}

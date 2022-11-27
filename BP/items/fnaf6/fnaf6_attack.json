@@ -1,0 +1,32 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:fnaf6_attack"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Attack"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_fnaf6_attack"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:fnaf6_attack"
+				}
+			}
+		},
+		"events": {
+			"fnaf:fnaf6_attack": {
+				"swing": {},
+				"run_command": {
+					"command": "/function fnaf6/main/attack_verify"
+				}
+			}
+		}
+	}
+}
