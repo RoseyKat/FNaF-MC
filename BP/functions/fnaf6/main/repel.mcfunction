@@ -15,15 +15,15 @@ execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=48,dx=0,dy=5,dz=-4] 
 
 
 
-execute as @a[tag=anim] at @s if entity @s[x=22,y=-60,z=44,dx=0,dy=5,dz=14] if entity @s[tag=m_freddy] run setblock 57 -60 26 redstone_block
+execute as @a[tag=anim] at @s if entity @s[x=22,y=-60,z=42,dx=0,dy=5,dz=16] if entity @s[tag=m_freddy] run setblock 57 -60 26 redstone_block
 
-execute as @a[tag=anim] at @s if entity @s[x=22,y=-60,z=44,dx=0,dy=5,dz=14] if entity @s[tag=scrap] run setblock 57 -60 25 redstone_block
+execute as @a[tag=anim] at @s if entity @s[x=22,y=-60,z=42,dx=0,dy=5,dz=16] if entity @s[tag=scrap] run setblock 57 -60 25 redstone_block
 
-execute as @a[tag=anim] at @s if entity @s[x=22,y=-60,z=44,dx=0,dy=5,dz=14] if entity @s[tag=afton] run setblock 57 -60 25 redstone_block
+execute as @a[tag=anim] at @s if entity @s[x=22,y=-60,z=42,dx=0,dy=5,dz=16] if entity @s[tag=afton] run setblock 57 -60 25 redstone_block
 
 
-execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=44,dx=0,dy=5,dz=14] if entity @s[tag=m_freddy] run setblock 57 -60 26 air
+execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=42,dx=0,dy=5,dz=16] if entity @s[tag=m_freddy] run setblock 57 -60 26 air
 
-execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=44,dx=0,dy=5,dz=14] if entity @s[tag=scrap] run setblock 57 -60 25 air
+execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=42,dx=0,dy=5,dz=16] if entity @s[tag=scrap] run setblock 57 -60 25 air
 
-execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=44,dx=0,dy=5,dz=14] if entity @s[tag=afton] run setblock 57 -60 25 air
+execute as @a[tag=anim] at @s unless entity @s[x=22,y=-60,z=42,dx=0,dy=5,dz=16] if entity @s[tag=afton] run setblock 57 -60 25 air
