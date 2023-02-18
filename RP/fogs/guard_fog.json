@@ -4,11 +4,25 @@
 		"description": {
 			"identifier": "fnaf:guard_fog"
 		},
+		"volumetric": {
+			"density": {
+				"air": {
+					"max_density": 1,
+					"uniform": true
+				}
+			},
+			"media_coefficients": {
+				"air": {
+					"absorption": "#2F2F2F",
+					"scattering": "#2F2F2F"
+				}
+			}
+		},
 		"distance": {
 			"air": {
 				"fog_start": 4,
 				"fog_end": 9,
-				"fog_color": "#070707",
+				"fog_color": "#2F2F2F",
 				"render_distance_type": "fixed"
 			}
 		}

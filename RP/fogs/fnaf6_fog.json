@@ -1,12 +1,26 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.19.0",
 	"minecraft:fog_settings": {
 		"description": {
 			"identifier": "fnaf:fnaf6_fog"
 		},
+		"volumetric": {
+			"density": {
+				"air": {
+					"max_density": 1,
+					"uniform": true
+				}
+			},
+			"media_coefficients": {
+				"air": {
+					"absorption": "#2F2F2F",
+					"scattering": "#2F2F2F"
+				}
+			}
+		},
 		"distance": {
 			"air": {
-				"fog_color": "#000001",
+				"fog_color": "#2F2F2F",
 				"fog_start": 1,
 				"fog_end": 4,
 				"render_distance_type": "fixed"

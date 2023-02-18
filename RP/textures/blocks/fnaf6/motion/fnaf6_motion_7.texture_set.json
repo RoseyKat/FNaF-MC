@@ -1,0 +1,7 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "fnaf6_motion_7",
+        "metalness_emissive_roughness": "fnaf6_motion_7_mer"
+    }
+}

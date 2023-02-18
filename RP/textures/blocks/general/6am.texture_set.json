@@ -1,0 +1,7 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "6am",
+        "metalness_emissive_roughness": "6am_mer"
+    }
+}
