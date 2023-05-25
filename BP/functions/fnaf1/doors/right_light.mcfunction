@@ -4,3 +4,5 @@ execute if score right_light doors matches 0 run scoreboard players add usage fn
 execute if score power fnaf1 matches 1.. run scoreboard players add right_light doors 1
 
 playsound fnaf1.light @a[tag=guard]
+
+execute if score loc chica_ai matches 12 if score left_light doors matches 1 run playsound fnaf1.at-door @a

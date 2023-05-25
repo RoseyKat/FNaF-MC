@@ -79,6 +79,26 @@
 				"sounds/fnaf1/no-power"
 			]
 		},
+		"fnaf1.kitchen": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/kitchen"
+			]
+		},
+		"fnaf1.steps": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/steps"
+			]
+		},
+		"fnaf1.freddy.steps": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/freddy/laugh1",
+				"sounds/fnaf1/freddy/laugh2",
+				"sounds/fnaf1/freddy/laugh3"
+			]
+		},
 		"fnaf2.mask-off": {
 			"category": "ui",
 			"sounds": [
