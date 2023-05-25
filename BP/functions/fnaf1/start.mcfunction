@@ -1,6 +1,12 @@
 fill 25 -60 21 27 -60 21 redstone_block
 fill 28 -60 23 28 -60 26 redstone_block
 
+# Bonnie AI
+setblock 21 -60 25 redstone_block
+
+# Summon AI
+function fnaf1/AI/bonnie/summon
+
 scoreboard players set @a camera_cache 1
 
 scoreboard players set time fnaf1 0
