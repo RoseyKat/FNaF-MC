@@ -36,3 +36,5 @@ tile.fnaf:fnaf6_motion_10.name=M10
 tile.fnaf:fnaf6_motion_11.name=M11
 tile.fnaf:fnaf6_motion_12.name=M12
 tile.fnaf:fnaf6_motion_13.name=M13
+item.spawn_egg.entity.fnaf:bonnie.name=Spawn Bonnie
+entity.fnaf:bonnie.name=Bonnie
