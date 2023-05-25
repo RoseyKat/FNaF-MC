@@ -2,12 +2,12 @@
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "fnaf:bonnie",
+			"identifier": "fnaf:chica",
 			"materials": {
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/fnaf1/bonnie"
+				"default": "textures/entity/fnaf1/chica"
 			},
 			"geometry": {
 				"default": "geometry.humanoid"

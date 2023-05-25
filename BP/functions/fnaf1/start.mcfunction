@@ -3,9 +3,12 @@ fill 28 -60 23 28 -60 26 redstone_block
 
 # Bonnie AI
 setblock 21 -60 25 redstone_block
+# Chica AI
+setblock 21 -58 25 redstone_block
 
 # Summon AI
 function fnaf1/AI/bonnie/summon
+function fnaf1/AI/chica/summon
 
 scoreboard players set @a camera_cache 1
 
