@@ -99,6 +99,18 @@
 				"sounds/fnaf1/freddy/laugh3"
 			]
 		},
+		"fnaf1.foxy.sing": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/foxy_sing"
+			]
+		},
+		"fnaf1.foxy.door.knock": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/foxy_door_knock"
+			]
+		},
 		"fnaf2.mask-off": {
 			"category": "ui",
 			"sounds": [

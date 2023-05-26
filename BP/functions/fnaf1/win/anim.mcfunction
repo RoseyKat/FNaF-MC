@@ -1,6 +1,8 @@
 tag @a remove camera
 scoreboard players set @s camera -1
 
+function fnaf1/AI/foxy/restart
+
 title @a title Animatronics Win!
 
 setblock 21 -60 23 redstone_block

@@ -5,10 +5,21 @@ fill 28 -60 23 28 -60 26 redstone_block
 setblock 21 -60 25 redstone_block
 # Chica AI
 setblock 21 -58 25 redstone_block
+# Freddy AI
+setblock 21 -56 25 redstone_block
+# Foxy AI
+setblock 21 -54 25 redstone_block
 
 # Summon AI
 function fnaf1/AI/bonnie/summon
 function fnaf1/AI/chica/summon
+function fnaf1/AI/freddy/summon
+function fnaf1/AI/foxy/summon
+
+# Setup AI
+scoreboard players set moved freddy_ai 0
+scoreboard players set moved foxy_ai 0
+scoreboard players set attacks foxy_ai 0
 
 scoreboard players set @a camera_cache 1
 
