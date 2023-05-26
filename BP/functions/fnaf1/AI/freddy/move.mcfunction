@@ -30,12 +30,12 @@ execute if score loc freddy_ai matches 10 if score @a[tag=guard] camera matches 
 execute if score loc freddy_ai matches 10 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 4 run scoreboard players set loc freddy_ai 11
 
 # Move from south east hallway to office
-execute if score loc freddy_ai matches 11 if score @a[tag=guard] camera matches -1 if score move_to freddy_ai matches 2 run tellraw @a {"rawtext":[{"text":"Freddy: South East Hallway > Office"}]}
-execute if score loc freddy_ai matches 11 if score @a[tag=guard] camera matches -1 if score move_to freddy_ai matches 2 run scoreboard players set loc freddy_ai 12
+execute if score loc freddy_ai matches 11 if score @a[tag=guard] camera matches -1 if score move_to freddy_ai matches 3 run tellraw @a {"rawtext":[{"text":"Freddy: South East Hallway > Office"}]}
+execute if score loc freddy_ai matches 11 if score @a[tag=guard] camera matches -1 if score move_to freddy_ai matches 3 run scoreboard players set loc freddy_ai 12
 
 # Move from office to south east hallway
-execute if score loc freddy_ai matches 11 if score @a[tag=guard] camera matches -1 if score move_to freddy_ai matches 1 run tellraw @a {"rawtext":[{"text":"Freddy: Office > South East Hallway"}]}
-execute if score loc freddy_ai matches 11 if score @a[tag=guard] camera matches -1 if score move_to freddy_ai matches 1 run scoreboard players set loc freddy_ai 11
+execute if score loc freddy_ai matches 12 if score move_to freddy_ai matches 1..2 run tellraw @a {"rawtext":[{"text":"Freddy: Office > South East Hallway"}]}
+execute if score loc freddy_ai matches 12 if score move_to freddy_ai matches 1..2 run scoreboard players set loc freddy_ai 11
 
 
 execute if score @a[tag=guard] camera matches -1 run scoreboard players add moved freddy_ai 1
