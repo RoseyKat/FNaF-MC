@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "fnaf:office_fan",
+            "geometry": {
+                "default": "geometry.office_fan"
+            },
+            "animations": {
+                "spin": "animation.office_fan.spin"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "render_controllers": [
+                "controller.render.office_fan"
+            ],
+            "scripts": {
+                "animate": [
+                    "spin"
+                ]
+            },
+            "enable_attachables": false,
+            "textures": {
+                "default": "textures/entity/office_fan"
+            }
+        }
+    }
+}
