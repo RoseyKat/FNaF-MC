@@ -14,11 +14,13 @@ execute if score loc freddy_ai matches 2 if score @a[tag=guard] camera matches -
 
 # Move from bathroom to kitchen
 execute if score loc freddy_ai matches 3 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 2 run playsound fnaf1.freddy.steps @a
+execute if score loc freddy_ai matches 3 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 2 run playsound fnaf1.freddy.kitchen @a
 execute if score loc freddy_ai matches 3 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 2 run tellraw @a {"rawtext":[{"text":"Freddy: Bathroom > Kitchen"}]}
 execute if score loc freddy_ai matches 3 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 2 run scoreboard players set loc freddy_ai 4
 
 # Move from kitchen to east hallway
 execute if score loc freddy_ai matches 4 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 3 run playsound fnaf1.freddy.steps @a
+execute if score loc freddy_ai matches 4 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 3 run stopsound @a fnaf1.freddy.kitchen
 execute if score loc freddy_ai matches 4 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 3 run tellraw @a {"rawtext":[{"text":"Freddy: Kitchen > East Hallway"}]}
 execute if score loc freddy_ai matches 4 if score @a[tag=guard] camera matches -1 if score moved freddy_ai matches 3 run scoreboard players set loc freddy_ai 10
 

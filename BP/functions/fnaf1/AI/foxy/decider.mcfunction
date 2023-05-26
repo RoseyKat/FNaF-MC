@@ -1,6 +1,6 @@
 scoreboard players random move foxy_ai 1 20
 
-scoreboard players set diff foxy_ai 20
+scoreboard players set diff foxy_ai 0
 
 execute if score move foxy_ai <= diff foxy_ai run function fnaf1/AI/foxy/move
 

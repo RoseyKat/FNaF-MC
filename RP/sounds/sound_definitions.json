@@ -85,6 +85,12 @@
 				"sounds/fnaf1/kitchen"
 			]
 		},
+		"fnaf1.freddy.kitchen": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/freddy_kitchen"
+			]
+		},
 		"fnaf1.steps": {
 			"category": "ui",
 			"sounds": [
