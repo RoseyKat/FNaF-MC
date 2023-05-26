@@ -1,0 +1,39 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fnaf:golden_freddy",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:health": {
+				"value": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 999
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:type_family": {
+				"family": [
+					"golden_freddy",
+					"anim",
+					"animatronic"
+				]
+			},
+			"minecraft:nameable": {}
+		},
+		"events": {}
+	}
+}

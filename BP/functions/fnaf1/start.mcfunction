@@ -9,12 +9,15 @@ setblock 21 -58 25 redstone_block
 setblock 21 -56 25 redstone_block
 # Foxy AI
 setblock 21 -54 25 redstone_block
+# Golden Freddy AI
+setblock 21 -52 25 redstone_block
 
 # Summon AI
 function fnaf1/AI/bonnie/summon
 function fnaf1/AI/chica/summon
 function fnaf1/AI/freddy/summon
 function fnaf1/AI/foxy/summon
+function fnaf1/AI/golden_freddy/summon
 
 # Setup AI
 scoreboard players set moved freddy_ai 0
@@ -50,3 +53,5 @@ effect @a[tag=anim] slowness 999999 2 true
 fog @a push fnaf:guard_fog guard_fog
 
 scoreboard players random foxy fnaf1 30 180
+
+inputpermission set @a[tag=guard] movement disabled

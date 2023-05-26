@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.golden_freddy.sit": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": [0.0005, -9.9455, 11.04393],
+					"position": [0, -11, 0]
+				},
+				"Body": {
+					"position": [0, -11, 0]
+				},
+				"RightArm": {
+					"rotation": [32.5, 0, 0],
+					"position": [0, -11, 0]
+				},
+				"LeftArm": {
+					"rotation": [17.5, 0, -5],
+					"position": [0, -11, 0]
+				},
+				"RightLeg": {
+					"rotation": [-92.5, 0, 0],
+					"position": [0, -10, 0]
+				},
+				"LeftLeg": {
+					"rotation": [-80, 0, 0],
+					"position": [0, -10, 0]
+				}
+			}
+		}
+	}
+}

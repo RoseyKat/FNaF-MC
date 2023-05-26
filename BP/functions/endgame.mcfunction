@@ -42,6 +42,7 @@ clear @a
 camerashake stop @a
 scoreboard players set sfx_played fnaf1 0
 setblock 0 -59 7 air
+inputpermission set @a movement enabled
 
 kill @e
 
