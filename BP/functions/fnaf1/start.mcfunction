@@ -6,6 +6,8 @@ execute unless entity @a[tag=guard] run tag @r add guard
 
 gamemode spectator @a[tag=!guard]
 
+tp @a[tag=!guard] @a[tag=guard]
+
 scoreboard objectives setdisplay sidebar
 
 # Bonnie AI
