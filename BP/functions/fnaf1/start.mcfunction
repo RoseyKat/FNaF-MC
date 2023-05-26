@@ -1,6 +1,13 @@
 fill 25 -60 21 27 -60 21 redstone_block
 fill 28 -60 23 28 -60 26 redstone_block
 
+tag @r[tag=make_guard] add guard
+execute unless entity @a[tag=guard] run tag @r add guard
+
+gamemode spectator @a[tag=!guard]
+
+scoreboard objectives setdisplay sidebar
+
 # Bonnie AI
 setblock 21 -60 25 redstone_block
 # Chica AI

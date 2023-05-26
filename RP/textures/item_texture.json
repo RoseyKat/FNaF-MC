@@ -109,6 +109,24 @@
 		},
 		"fnaf_fnaf6_afton": {
 			"textures": "textures/items/fnaf6/selection/fnaf6_afton"
+		},
+		"fnaf_bonnie_icon": {
+			"textures": "textures/items/fnaf1/bonnie_icon"
+		},
+		"fnaf_chica_icon": {
+			"textures": "textures/items/fnaf1/chica_icon"
+		},
+		"fnaf_foxy_icon": {
+			"textures": "textures/items/fnaf1/foxy_icon"
+		},
+		"fnaf_freddy_icon": {
+			"textures": "textures/items/fnaf1/freddy_icon"
+		},
+		"next_icon": {
+			"textures": "textures/items/next"
+		},
+		"prev_icon": {
+			"textures": "textures/items/prev"
 		}
 	}
 }

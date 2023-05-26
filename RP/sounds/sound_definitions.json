@@ -117,6 +117,12 @@
 				"sounds/fnaf1/foxy_door_knock"
 			]
 		},
+		"fnaf1.jumpscare.gfreddy": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/golden_freddy_jumpscare"
+			]
+		},
 		"fnaf2.mask-off": {
 			"category": "ui",
 			"sounds": [

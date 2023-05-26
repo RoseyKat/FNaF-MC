@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:bonnie_diff_down"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Decrease +1"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "prev_icon"
+			}
+		}
+	}
+}

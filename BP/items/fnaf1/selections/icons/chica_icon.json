@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:chica_icon"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Chica"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_chica_icon"
+			}
+		}
+	}
+}

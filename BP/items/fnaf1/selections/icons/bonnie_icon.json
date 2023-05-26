@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:bonnie_icon"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Bonnie"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "fnaf_bonnie_icon"
+			}
+		}
+	}
+}

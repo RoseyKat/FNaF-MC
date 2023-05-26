@@ -1,0 +1,19 @@
+{
+	"format_version": "1.19.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:chica_diff_up"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Increase +1"
+			},
+			"minecraft:creative_category": {
+				"category": "commands"
+			},
+			"minecraft:icon": {
+				"texture": "next_icon"
+			}
+		}
+	}
+}
