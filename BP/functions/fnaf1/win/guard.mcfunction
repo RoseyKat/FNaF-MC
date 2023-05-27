@@ -1,6 +1,8 @@
 tag @a remove camera
 scoreboard players set @s camera -1
 
+function fnaf1/AI/foxy/restart
+
 playsound fnaf1.win @a
 
 setblock 26 -60 20 air
