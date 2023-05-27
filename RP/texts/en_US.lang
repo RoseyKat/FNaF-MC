@@ -40,3 +40,6 @@ item.spawn_egg.entity.fnaf:bonnie.name=Spawn Bonnie
 entity.fnaf:bonnie.name=Bonnie
 tile.fnaf:dj_block.name=DJ Block
 tile.fnaf:dj_block_off.name=DJ Block (off)
+item.spawn_egg.entity.fnaf:hanging_light.name=Spawn Hanging Light
+entity.fnaf:hanging_light.name=Hanging Light
+tile.fnaf:stonebrick_hole.name=Stonebrick (hole)

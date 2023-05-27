@@ -99,6 +99,9 @@
 		},
 		"fnaf_dj_block_off": {
 			"textures": "textures/blocks/dj_block_off"
+		},
+		"fnaf_stonebrick_hole": {
+			"textures": "textures/blocks/stonebrick_hole"
 		}
 	}
 }

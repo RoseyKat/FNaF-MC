@@ -67,3 +67,5 @@ gamemode a @a
 tp @a 0 -60 0
 
 clone 4 -60 9 4 -60 9 0 -60 5
+
+summon fnaf:hanging_light 0.50 -57.00 2.40 facing 0 -56 3

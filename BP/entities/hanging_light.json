@@ -1,0 +1,93 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "fnaf:hanging_light",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"fnaf:play_anim": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:timer": {
+					"time": 1,
+					"time_down_event": {
+						"event": "fnaf:no_var"
+					}
+				}
+			},
+			"fnaf:var": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:collision_box": {
+				"height": 0.01,
+				"width": 0.01
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:variant": {
+				"value": 0
+			},
+			"minecraft:type_family": {
+				"family": [
+					"hanging_light"
+				]
+			},
+			"minecraft:timer": {
+				"looping": true,
+				"time_down_event": {
+					"event": "fnaf:easter_egg"
+				},
+				"time": 1
+			}
+		},
+		"events": {
+			"fnaf:easter_egg": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"fnaf:play_anim"
+							]
+						},
+						"weight": 1
+					},
+					{
+						"weight": 100
+					}
+				]
+			},
+			"fnaf:no_var": {
+				"remove": {
+					"component_groups": [
+						"fnaf:play_anim"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"fnaf:var"
+					]
+				}
+			}
+		}
+	}
+}
