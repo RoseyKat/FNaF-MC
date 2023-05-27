@@ -15,6 +15,7 @@ scoreboard players set cooling fnaf6 1
 scoreboard players set tasks fnaf6 180
 scoreboard players set sound fnaf6 1
 scoreboard players set temp fnaf6 60
+scoreboard players set game other 0
 tag @a remove camera
 tag @a remove guard
 tag @a remove bonnie
@@ -44,7 +45,16 @@ scoreboard players set sfx_played fnaf1 0
 inputpermission set @a movement enabled
 inputpermission set @a camera enabled
 
-scoreboard objectives setdisplay sidebar diffs descending
+scoreboard players reset * wins
+scoreboard players reset * lose
+scoreboard players reset * ratio
+
+scoreboard players operation @a wins = @a wins_cache
+scoreboard players operation @a lose = @a lose_cache
+scoreboard players operation @a ratio = @a ratio_cache
+
+scoreboard players set display other 1
+scoreboard objectives setdisplay sidebar wins descending
 
 kill @e
 

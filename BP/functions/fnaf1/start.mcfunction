@@ -4,6 +4,8 @@ fill 28 -60 23 28 -60 26 redstone_block
 tag @r[tag=make_guard] add guard
 execute unless entity @a[tag=guard] run tag @r add guard
 
+scoreboard players set game other 1
+
 gamemode spectator @a[tag=!guard]
 
 tp @a[tag=!guard] @a[tag=guard]

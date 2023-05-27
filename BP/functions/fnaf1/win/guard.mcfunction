@@ -5,6 +5,12 @@ function fnaf1/AI/foxy/restart
 
 playsound fnaf1.win @a
 
+scoreboard players add @a[tag=guard] wins 1
+scoreboard players add @a[tag=guard] ratio 1
+
+scoreboard players add @a[tag=guard] wins_cache 1
+scoreboard players add @a[tag=guard] ratio_cache 1
+
 setblock 26 -60 20 air
 
 setblock 21 -60 23 redstone_block
