@@ -1,9 +1,4 @@
 
-execute if score loc foxy_ai matches 4 if score @a[tag=guard] camera matches -1 run playsound fnaf1.foxy @a
-execute if score loc foxy_ai matches 4 if score @a[tag=guard] camera matches 7 run playsound fnaf1.foxy @a
-
-execute if score loc foxy_ai matches 4 if score @a[tag=guard] camera matches -1 run setblock 21 -54 24 redstone_block
-execute if score loc foxy_ai matches 4 if score @a[tag=guard] camera matches 7 run setblock 21 -54 24 redstone_block
 
 # Move from stage 1 to stage 2
 execute if score loc foxy_ai matches 1 if score @a[tag=guard] camera matches -1 if score moved foxy_ai matches 0 if score cheats fnaf1 matches 1 run tellraw @a {"rawtext":[{"text":"Foxy: Stage 1 > Stage 2"}]}
