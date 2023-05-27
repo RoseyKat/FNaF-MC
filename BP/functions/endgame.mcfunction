@@ -42,6 +42,7 @@ clear @a
 camerashake stop @a
 scoreboard players set sfx_played fnaf1 0
 inputpermission set @a movement enabled
+inputpermission set @a camera enabled
 
 scoreboard objectives setdisplay sidebar diffs descending
 
@@ -50,7 +51,7 @@ kill @e
 structure load blank 20 -64 20
 
 stopsound @a
-music stop
+music play music.lobby 1 5 loop
 
 gamemode a @a
 tp @a 0 -60 0

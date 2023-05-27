@@ -1,22 +1,48 @@
 {
 	"format_version": "1.14.0",
 	"sound_definitions": {
+		"music.lobby": {
+			"category": "music",
+			"sounds": [
+				{
+					"name": "sounds/lobby/fnaf1",
+					"stream": true
+				},
+				{
+					"name": "sounds/lobby/fnaf2",
+					"stream": true
+				},
+				{
+					"name": "sounds/lobby/bite",
+					"stream": true
+				}
+			]
+		},
 		"ambience.fnaf1": {
 			"category": "music",
 			"sounds": [
-				"sounds/ambience/fnaf1"
+				{
+					"name": "sounds/ambience/fnaf1",
+					"stream": true
+				}
 			]
 		},
 		"ambience.fnaf2": {
 			"category": "music",
 			"sounds": [
-				"sounds/ambience/fnaf2"
+				{
+					"name": "sounds/ambience/fnaf2",
+					"stream": true
+				}
 			]
 		},
 		"ambience.fnaf6": {
 			"category": "music",
 			"sounds": [
-				"sounds/ambience/fnaf6"
+				{
+					"name": "sounds/ambience/fnaf6",
+					"stream": true
+				}
 			]
 		},
 		"fnaf1.win": {
