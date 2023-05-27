@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "atlas_tile": "fnaf_dj_block",
+        "flipbook_texture": "textures/blocks/dj_block",
+        "ticks_per_frame": 1,
+        "blend_frames": true
+    }
+]

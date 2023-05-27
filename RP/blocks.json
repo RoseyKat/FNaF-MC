@@ -122,5 +122,13 @@
 	"fnaf:fnaf6_cooling": {
 		"sound": "stone",
 		"textures": "fnaf_fnaf6_cooling"
+	},
+	"fnaf:dj_block": {
+		"sound": "stone",
+		"textures": "fnaf_dj_block"
+	},
+	"fnaf:dj_block_off": {
+		"sound": "stone",
+		"textures": "fnaf_dj_block_off"
 	}
 }

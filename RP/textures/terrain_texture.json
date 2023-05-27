@@ -1,6 +1,6 @@
 {
-	"num_mip_levels": 4,
-	"padding": 8,
+	"num_mip_levels": 0,
+	"padding": 0,
 	"resource_pack_name": "FNaF",
 	"texture_name": "atlas.terrain",
 	"texture_data": {
@@ -93,6 +93,12 @@
 		},
 		"fnaf_fnaf6_cooling": {
 			"textures": "textures/blocks/fnaf6/cooling"
+		},
+		"fnaf_dj_block": {
+			"textures": "textures/blocks/dj_block"
+		},
+		"fnaf_dj_block_off": {
+			"textures": "textures/blocks/dj_block_off"
 		}
 	}
 }
