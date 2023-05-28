@@ -48,10 +48,12 @@ inputpermission set @a camera enabled
 scoreboard players reset * wins
 scoreboard players reset * lose
 scoreboard players reset * ratio
+scoreboard players reset * big_win
 
-scoreboard players operation @a wins = @a wins_cache
-scoreboard players operation @a lose = @a lose_cache
-scoreboard players operation @a ratio = @a ratio_cache
+execute as @a run scoreboard players operation @s wins = @s wins_cache
+execute as @a run scoreboard players operation @s lose = @s lose_cache
+execute as @a run scoreboard players operation @s ratio = @s ratio_cache
+execute as @a run scoreboard players operation @s big_win = @s big_win_cache
 
 scoreboard players set display other 1
 scoreboard objectives setdisplay sidebar wins descending

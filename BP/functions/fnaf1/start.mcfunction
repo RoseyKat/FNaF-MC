@@ -6,10 +6,6 @@ execute unless entity @a[tag=guard] run tag @r add guard
 
 scoreboard players set game other 1
 
-gamemode spectator @a[tag=!guard]
-
-tp @a[tag=!guard] @a[tag=guard]
-
 scoreboard objectives setdisplay sidebar
 
 # Bonnie AI
@@ -43,19 +39,14 @@ scoreboard players set usage fnaf1 1
 
 tp @a[tag=guard] 21 -60 50 facing 23 -60 50
 
-tp @a[tag=bonnie] 44 -59 48 facing 42 -59 48
-
-tp @a[tag=chica] 44 -59 52 facing 42 -59 52
-
-tp @a[tag=freddy] 44 -59 50 facing 42 -59 50
-
-tag @a[tag=bonnie] add anim
-tag @a[tag=chica] add anim
-tag @a[tag=freddy] add anim
-
 music play ambience.fnaf1 1 3 loop
 
-gamemode a @a
+gamemode a @a[tag=guard]
+
+gamemode spectator @a[tag=!guard]
+
+tp @a[tag=!guard] @a[tag=guard]
+
 
 replaceitem entity @a[tag=guard] slot.hotbar 0 fnaf:fnaf1_camera 1 0 {"item_lock": {"mode": "lock_in_slot"}}
 
