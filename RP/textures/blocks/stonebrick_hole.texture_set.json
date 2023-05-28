@@ -1,0 +1,7 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "stonebrick_hole",
+        "metalness_emissive_roughness": "stonebrick_hole_mer"
+    }
+}
