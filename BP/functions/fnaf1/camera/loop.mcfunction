@@ -17,7 +17,7 @@ execute as @a[tag=camera] if score @s camera matches 8 run tp @s 28.67 -58.80 44
 
 execute as @a[tag=camera] if score @s camera matches 9 run tp @s 21.88 -57.80 46.98 facing 20 -58.5 46
 
-execute as @a[tag=camera] if score @s camera matches 10 run tp @s 25.69 -57.80 54.35 facing 28 -59 52
+execute as @a[tag=camera] if score @s camera matches 10 run tp @s 25.76 -57.80 54.40 facing 42 -58 54
 
 execute as @a[tag=camera] if score @s camera matches 11 run tp @s 21.94 -57.80 54.04 facing 20 -58.5 53
 
