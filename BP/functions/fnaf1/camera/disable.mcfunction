@@ -10,6 +10,11 @@ playsound fnaf1.camera @s
 
 inputpermission set @s camera enabled
 
+# SFX
+setblock 32 -60 21 air
+
+stopsound @a ambience.camera
+
 replaceitem entity @s slot.hotbar 0 fnaf:fnaf1_camera 1 0 {"item_lock": {"mode": "lock_in_slot"}}
 clear @s carved_pumpkin
 clear @s fnaf:fnaf1_camera_next

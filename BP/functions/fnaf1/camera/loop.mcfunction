@@ -27,4 +27,6 @@ execute as @a[tag=camera] if score @s camera_cache matches 12.. run scoreboard p
 execute as @a[tag=camera] if score @s camera matches 0 run scoreboard players set @s camera 11
 execute as @a[tag=camera] if score @s camera_cache matches 0 run scoreboard players set @s camera_cache 11
 
+camerashake add @a[tag=guard,tag=camera] 0.05 0.05 rotational
+
 function fnaf1/camera/current_camera

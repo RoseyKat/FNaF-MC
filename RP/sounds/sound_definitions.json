@@ -27,6 +27,12 @@
 				}
 			]
 		},
+		"ambience.camera": {
+			"category": "ui",
+			"sounds": [
+				"sounds/ambience/camera"
+			]
+		},
 		"ambience.fnaf2": {
 			"category": "music",
 			"sounds": [
@@ -147,6 +153,20 @@
 			"category": "ui",
 			"sounds": [
 				"sounds/fnaf1/golden_freddy_jumpscare"
+			]
+		},
+		"camera.blip": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/camera/blip"
+			]
+		},
+		"camera.garble": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/camera/garble1",
+				"sounds/fnaf1/camera/garble2",
+				"sounds/fnaf1/camera/garble3"
 			]
 		},
 		"fnaf2.mask-off": {

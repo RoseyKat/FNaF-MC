@@ -26,8 +26,7 @@
 					"command": [
 						"/scoreboard players set @s camera 6",
 						"/scoreboard players set @s camera_cache 6",
-						"/playsound fnaf1.camera @s",
-						"/clear @s carved_pumpkin"
+						"/playsound camera.blip @s"
 					]
 				}
 			}
