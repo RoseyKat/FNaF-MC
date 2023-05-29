@@ -51,6 +51,51 @@
 				}
 			]
 		},
+		"fnaf1.phone.night1": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/fnaf1/phone/call1",
+					"stream": true
+				}
+			]
+		},
+		"fnaf1.phone.night2": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/fnaf1/phone/call2",
+					"stream": true
+				}
+			]
+		},
+		"fnaf1.phone.night3": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/fnaf1/phone/call3",
+					"stream": true
+				}
+			]
+		},
+		"fnaf1.phone.night4": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/fnaf1/phone/call4",
+					"stream": true
+				}
+			]
+		},
+		"fnaf1.phone.night5": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/fnaf1/phone/call5",
+					"stream": true
+				}
+			]
+		},
 		"fnaf1.win": {
 			"category": "ui",
 			"sounds": [
@@ -141,6 +186,12 @@
 			"category": "ui",
 			"sounds": [
 				"sounds/fnaf1/foxy_sing"
+			]
+		},
+		"fnaf1.foxy.song": {
+			"category": "ui",
+			"sounds": [
+				"sounds/fnaf1/foxy_song"
 			]
 		},
 		"fnaf1.foxy.door.knock": {

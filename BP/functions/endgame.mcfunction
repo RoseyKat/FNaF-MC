@@ -45,15 +45,21 @@ scoreboard players set sfx_played fnaf1 0
 inputpermission set @a movement enabled
 inputpermission set @a camera enabled
 
+function load/place
+
 scoreboard players reset * wins
 scoreboard players reset * lose
 scoreboard players reset * ratio
 scoreboard players reset * big_win
+scoreboard players reset * nights
+scoreboard players reset * stars
 
 execute as @a run scoreboard players operation @s wins = @s wins_cache
 execute as @a run scoreboard players operation @s lose = @s lose_cache
 execute as @a run scoreboard players operation @s ratio = @s ratio_cache
 execute as @a run scoreboard players operation @s big_win = @s big_win_cache
+execute as @a run scoreboard players operation @s stars = @s stars_cache
+execute as @a run scoreboard players operation @s nights = @s nights_cache
 
 scoreboard players set display other 1
 scoreboard objectives setdisplay sidebar wins descending
@@ -67,7 +73,5 @@ music play music.lobby 1 5 loop
 
 gamemode a @a
 tp @a 0 -60 0
-
-clone 4 -60 9 4 -60 9 0 -60 5
 
 summon fnaf:hanging_light 0.50 -57.00 2.40 facing 0 -56 3

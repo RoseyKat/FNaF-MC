@@ -57,3 +57,8 @@ fog @a push fnaf:guard_fog guard_fog
 scoreboard players random foxy fnaf1 30 180
 
 inputpermission set @a[tag=guard] movement disabled
+
+# Phone guy
+setblock 32 -60 23 redstone_block
+
+execute if score night fnaf1 matches 1..5 run replaceitem entity @a[tag=guard] slot.hotbar 4 fnaf:mute_phone 1 0 {"item_lock": {"mode": "lock_in_slot"}}

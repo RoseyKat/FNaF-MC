@@ -127,6 +127,30 @@
 		},
 		"prev_icon": {
 			"textures": "textures/items/prev"
+		},
+		"fnaf_fnaf1_night1": {
+			"textures": "textures/items/fnaf1/selections/nights/fnaf1_night1"
+		},
+		"fnaf_fnaf1_night2": {
+			"textures": "textures/items/fnaf1/selections/nights/fnaf1_night2"
+		},
+		"fnaf_fnaf1_night3": {
+			"textures": "textures/items/fnaf1/selections/nights/fnaf1_night3"
+		},
+		"fnaf_fnaf1_night4": {
+			"textures": "textures/items/fnaf1/selections/nights/fnaf1_night4"
+		},
+		"fnaf_fnaf1_night5": {
+			"textures": "textures/items/fnaf1/selections/nights/fnaf1_night5"
+		},
+		"fnaf_fnaf1_night6": {
+			"textures": "textures/items/fnaf1/selections/nights/fnaf1_night6"
+		},
+		"fnaf_fnaf1_420": {
+			"textures": "textures/items/fnaf1/selections/diffs/fnaf1_420"
+		},
+		"fnaf_mute_phone": {
+			"textures": "textures/items/fnaf1/mute_phone"
 		}
 	}
 }

@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "fnaf:mute_phone",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "fnaf_mute_phone"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fnaf:mute_phone"
+				}
+			}
+		},
+		"events": {
+			"fnaf:mute_phone": {
+				"swing": {},
+				"run_command": {
+					"command": [
+						"/stopsound @a fnaf1.phone.night1",
+						"/stopsound @a fnaf1.phone.night2",
+						"/stopsound @a fnaf1.phone.night3",
+						"/stopsound @a fnaf1.phone.night4",
+						"/stopsound @a fnaf1.phone.night5",
+						"/clear @s fnaf:mute_phone"
+					]
+				}
+			}
+		}
+	}
+}

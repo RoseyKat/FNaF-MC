@@ -76,9 +76,6 @@ execute if score loc chica_ai matches 12 if score move_to chica_ai matches 5 if 
 execute if score loc chica_ai matches 12 if score move_to chica_ai matches 5 run scoreboard players set loc chica_ai 11
 
 
-execute if score loc chica_ai matches 4 run playsound fnaf1.kitchen @a
-
-
 execute as @a[tag=camera] if score moved chica_ai matches 1 run replaceitem entity @s slot.armor.head 0 carved_pumpkin 1 0 {"item_lock": {"mode": "lock_in_slot"}}
 execute as @a[tag=camera] if score moved chica_ai matches 1 run playsound camera.garble @s
 scoreboard players set moved chica_ai 0
