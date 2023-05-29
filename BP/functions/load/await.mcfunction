@@ -37,4 +37,7 @@ scoreboard players add @a big_win_cache 0
 scoreboard players add @a stars_cache 0
 scoreboard players add @a nights_cache 0
 
+execute if score diff bonnie_ai matches 1 if score diff chica_ai matches 9 if score diff freddy_ai matches 8 if score diff foxy_ai matches 3 run playsound fnaf1.jumpscare.gfreddy @a
+execute if score diff bonnie_ai matches 1 if score diff chica_ai matches 9 if score diff freddy_ai matches 8 if score diff foxy_ai matches 3 run function load/reset
+
 execute if score game other matches 0 run titleraw @a actionbar {"rawtext":[{"text":"§5Bonnie§f: "},{"score":{"objective":"bonnie_ai","name":"diff"}},{"text":"/20\n§eChica§f: "},{"score":{"objective":"chica_ai","name":"diff"}},{"text":"/20\n§6Freddy§f: "},{"score":{"objective":"freddy_ai","name":"diff"}},{"text":"/20\n§cFoxy§f: "},{"score":{"objective":"foxy_ai","name":"diff"}},{"text":"/20"},{"text":"\n\nNight: "},{"score":{"objective":"fnaf1","name":"night"}}]}

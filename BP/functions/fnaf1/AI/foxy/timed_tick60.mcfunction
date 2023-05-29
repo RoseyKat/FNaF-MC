@@ -1,5 +1,6 @@
 scoreboard players add attacks foxy_ai 1
 
+execute if score left_door doors matches 0 run scoreboard players set jumpscarer fnaf1 4
 execute if score left_door doors matches 0 run function fnaf1/win/anim
 execute if score left_door doors matches 1 run function fnaf1/AI/foxy/restart
 

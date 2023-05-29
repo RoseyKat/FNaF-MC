@@ -151,6 +151,9 @@
 		},
 		"fnaf_mute_phone": {
 			"textures": "textures/items/fnaf1/mute_phone"
+		},
+		"fnaf_jumpscared": {
+			"textures": "textures/items/fnaf2/fnaf2_attack"
 		}
 	}
 }

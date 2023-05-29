@@ -1,6 +1,8 @@
 fill 25 -60 21 27 -60 21 redstone_block
 fill 28 -60 23 28 -60 26 redstone_block
 
+scoreboard players set jumpscarer fnaf1 0
+
 tag @r[tag=make_guard] add guard
 execute unless entity @a[tag=guard] run tag @r add guard
 

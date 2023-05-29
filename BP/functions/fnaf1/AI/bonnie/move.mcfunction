@@ -1,5 +1,6 @@
 scoreboard players random move_to bonnie_ai 1 5
 
+execute if score loc bonnie_ai matches 12 unless score left_door doors matches 1 run scoreboard players set jumpscarer fnaf1 2
 execute if score loc bonnie_ai matches 12 unless score left_door doors matches 1 run function fnaf1/win/anim
 
 # Move from stange to dining hall

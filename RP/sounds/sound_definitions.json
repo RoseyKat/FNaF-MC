@@ -159,7 +159,10 @@
 		"fnaf1.kitchen": {
 			"category": "ui",
 			"sounds": [
-				"sounds/fnaf1/kitchen"
+				"sounds/fnaf1/chica_kitchen/clank1",
+				"sounds/fnaf1/chica_kitchen/clank2",
+				"sounds/fnaf1/chica_kitchen/clank3",
+				"sounds/fnaf1/chica_kitchen/clank4"
 			]
 		},
 		"fnaf1.freddy.kitchen": {

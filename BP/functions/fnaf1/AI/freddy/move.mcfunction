@@ -1,5 +1,6 @@
 scoreboard players random move_to freddy_ai 1 3
 
+execute if score loc freddy_ai matches 12 unless score right_door doors matches 1 run scoreboard players set jumpscarer fnaf1 1
 execute if score loc freddy_ai matches 12 unless score right_door doors matches 1 run function fnaf1/win/anim
 
 # Move from stage to dining hall

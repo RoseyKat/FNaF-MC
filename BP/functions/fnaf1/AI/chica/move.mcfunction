@@ -1,5 +1,6 @@
 scoreboard players random move_to chica_ai 1 5
 
+execute if score loc chica_ai matches 12 unless score right_door doors matches 1 run scoreboard players set jumpscarer fnaf1 3
 execute if score loc chica_ai matches 12 unless score right_door doors matches 1 run function fnaf1/win/anim
 
 # Move from stange to dining hall
