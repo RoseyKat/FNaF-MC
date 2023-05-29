@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:party_hat"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.party_hat",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fnaf_party_hat",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					8,
+					6
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-3,
+					0,
+					-3
+				],
+				"size": [
+					6,
+					8,
+					6
+				]
+			},
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "items"
+			}
+		}
+	}
+}

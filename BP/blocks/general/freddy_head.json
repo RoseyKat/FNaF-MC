@@ -1,0 +1,105 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fnaf:freddy_head",
+			"properties": {
+				"fnaf:rot": [
+					2,
+					3,
+					4,
+					5
+				]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.anim_head",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fnaf_freddy_head",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"minecraft:entity_collision": {
+				"origin": [
+					-4,
+					0,
+					-4
+				],
+				"size": [
+					8,
+					8,
+					8
+				]
+			},
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "itemGroup.name.skull"
+			},
+			"minecraft:on_player_placing": {
+				"event": "fnaf:update_rotation"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('fnaf:rot') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('fnaf:rot') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('fnaf:rot') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('fnaf:rot') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"fnaf:update_rotation": {
+				"set_block_property": {
+					"fnaf:rot": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

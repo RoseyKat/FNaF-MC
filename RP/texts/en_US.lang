@@ -51,3 +51,7 @@ item.fnaf:fnaf1_night5=Night 5
 item.fnaf:fnaf1_night6=Night 6
 item.fnaf:fnaf1_420=4/20 Mode
 item.fnaf:mute_phone=Hang Up
+tile.fnaf:party_hat.name=Party Hat
+tile.fnaf:bonnie_head.name=Bonnie Head
+tile.fnaf:chica_head.name=Chica Head
+tile.fnaf:freddy_head.name=Freddy Head

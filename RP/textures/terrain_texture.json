@@ -102,6 +102,18 @@
 		},
 		"fnaf_stonebrick_hole": {
 			"textures": "textures/blocks/stonebrick_hole"
+		},
+		"fnaf_party_hat": {
+			"textures": "textures/blocks/general/party_hat"
+		},
+		"fnaf_bonnie_head": {
+			"textures": "textures/blocks/general/heads/bonnie_head"
+		},
+		"fnaf_chica_head": {
+			"textures": "textures/blocks/general/heads/chica_head"
+		},
+		"fnaf_freddy_head": {
+			"textures": "textures/blocks/general/heads/freddy_head"
 		}
 	}
 }

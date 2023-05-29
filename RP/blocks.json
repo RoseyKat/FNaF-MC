@@ -134,5 +134,8 @@
 	"fnaf:stonebrick_hole": {
 		"sound": "stone",
 		"textures": "fnaf_stonebrick_hole"
+	},
+	"fnaf:party_hat": {
+		"sound": "stone"
 	}
 }
