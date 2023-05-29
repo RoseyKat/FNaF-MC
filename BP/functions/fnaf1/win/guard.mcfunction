@@ -14,6 +14,13 @@ scoreboard players add @a[tag=guard] ratio_cache 1
 execute if score diff bonnie_ai matches 20 if score diff chica_ai matches 20 if score diff freddy_ai matches 20 if score diff foxy_ai matches 20 run scoreboard players add @a[tag=guard] big_win 1
 execute if score diff bonnie_ai matches 20 if score diff chica_ai matches 20 if score diff freddy_ai matches 20 if score diff foxy_ai matches 20 run scoreboard players add @a[tag=guard] big_win_cache 1
 
+scoreboard players set loc bonnie_ai -1
+scoreboard players set loc chica_ai -1
+scoreboard players set loc freddy_ai -1
+
+inputpermission set @a camera disabled
+inputpermission set @a movement disabled
+
 setblock 26 -60 20 air
 
 setblock 21 -60 23 redstone_block
